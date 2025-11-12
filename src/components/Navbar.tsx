@@ -7,13 +7,18 @@ import {
 } from "../components/ui/dropdown-menu"
 import { Button } from "./ui/button";
 import { useTheme } from "./providers/theme-provider";
+import { SidebarTrigger, useSidebar } from './ui/sidebar';
 
 export default function Navbar() {
     const { theme, setTheme } = useTheme();
+    // const { toggleSidebar } = useSidebar();
+
     return (
-        <nav className="p-4 flex items-center justify-center">
+        <nav className="p-4 flex items-center justify-between">
             {/*Left*/}
-            collapseButton
+            <SidebarTrigger />
+            {/* <Button variant="outline" onClick={toggleSidebar}>Custom Button</Button> */}
+
             {/*Right*/}
             <div className="flex items-center gap-4">
                 <Link to="/">Dashboard</Link>
