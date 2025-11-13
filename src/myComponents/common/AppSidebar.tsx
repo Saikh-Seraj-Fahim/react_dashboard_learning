@@ -7,11 +7,11 @@ import {
     SidebarMenuSubItem,
     SidebarSeparator
 }
-    from "./ui/sidebar";
+    from "../../components/ui/sidebar";
 import { Link } from "react-router";
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem } from "./ui/dropdown-menu";
-import { DropdownMenuTrigger } from "./ui/dropdown-menu";
-import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "./ui/collapsible";
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem } from "../../components/ui/dropdown-menu";
+import { DropdownMenuTrigger } from "../../components/ui/dropdown-menu";
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "../../components/ui/collapsible";
 
 const items = [
     {
@@ -21,22 +21,22 @@ const items = [
     },
     {
         title: "Inbox",
-        url: "#",
+        url: "/",
         icon: Inbox,
     },
     {
         title: "Calendar",
-        url: "#",
+        url: "/",
         icon: Calendar,
     },
     {
         title: "Search",
-        url: "#",
+        url: "/",
         icon: Search,
     },
     {
         title: "Settings",
-        url: "#",
+        url: "/",
         icon: Settings,
     },
 ];

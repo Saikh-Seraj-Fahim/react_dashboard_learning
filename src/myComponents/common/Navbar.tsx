@@ -1,13 +1,13 @@
 import { Link, NavLink, useNavigate } from 'react-router-dom'
 import { LogOut, Moon, Settings, SquareMenu, Sun, User } from "lucide-react";
-import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
+import { Avatar, AvatarFallback, AvatarImage } from "../../components/ui/avatar";
 import {
     DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator,
     DropdownMenuTrigger
-} from "../components/ui/dropdown-menu"
-import { Button } from "./ui/button";
-import { useTheme } from "./providers/theme-provider";
-import { SidebarTrigger, useSidebar } from './ui/sidebar';
+} from "../../components/ui/dropdown-menu"
+import { Button } from "../../components/ui/button";
+import { useTheme } from "../../components/providers/theme-provider"
+import { SidebarTrigger, useSidebar } from '../../components/ui/sidebar';
 
 export default function Navbar() {
     const { theme, setTheme } = useTheme();

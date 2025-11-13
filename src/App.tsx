@@ -1,10 +1,10 @@
 import { Outlet } from 'react-router';
 import './App.css'
-import AppSidebar from './components/AppSidebar';
-import Navbar from './components/Navbar';
+import AppSidebar from './myComponents/common/AppSidebar';
+import Navbar from './myComponents/common/Navbar';
 import { ThemeProvider } from "./components/providers/theme-provider"
 import { SidebarProvider } from './components/ui/sidebar';
-import { useState } from 'react';
+// import { useState } from 'react';
 
 export default function App() {
     // const [open, setOpen] = useState(() => {
