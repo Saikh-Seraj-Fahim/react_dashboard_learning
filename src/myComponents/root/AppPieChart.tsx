@@ -1,10 +1,9 @@
 // Pie Chart - Donut with Text
 
-import { ChartTooltip, ChartTooltipContent, type ChartConfig }
-    from "../components/ui/chart";
-import { ChartContainer } from "../components/ui/chart";
+import { ChartTooltip, ChartTooltipContent, type ChartConfig } from "../../components/ui/chart";
+import { ChartContainer } from "../../components/ui/chart";
 import { Pie, PieChart, Label } from "recharts";
-import { Card, CardContent, CardFooter } from "../components/ui/card";
+import { Card, CardContent, CardFooter } from "../../components/ui/card";
 import { TrendingUp } from "lucide-react";
 
 const chartData = [

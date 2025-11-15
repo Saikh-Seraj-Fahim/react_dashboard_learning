@@ -1,8 +1,8 @@
 // Area Chart - Gradient Variant
 
 import { ChartLegend, ChartLegendContent, ChartTooltip, ChartTooltipContent, type ChartConfig }
-    from "../components/ui/chart"
-import { ChartContainer } from "../components/ui/chart";
+    from "../../components/ui/chart"
+import { ChartContainer } from "../../components/ui/chart";
 import { Area, AreaChart, CartesianGrid, XAxis, YAxis } from "recharts";
 
 const chartConfig = {

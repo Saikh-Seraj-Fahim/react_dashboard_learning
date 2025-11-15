@@ -1,8 +1,8 @@
-import AppAreaChart from "./AppAreaChart";
-import AppBarChart from "./AppBarChart";
-import AppPieChart from "./AppPieChart";
-import CardList from "./CardList";
-import ToDoList from "./ToDoList";
+import AppAreaChart from "./root/AppAreaChart";
+import AppBarChart from "./root/AppBarChart";
+import AppPieChart from "./root/AppPieChart";
+import CardList from "./root/CardList";
+import ToDoList from "./root/ToDoList";
 
 export default function HomePage() {
     return (

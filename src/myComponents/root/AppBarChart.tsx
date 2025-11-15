@@ -1,6 +1,6 @@
 import { ChartLegend, ChartLegendContent, ChartTooltip, ChartTooltipContent, type ChartConfig }
-    from "../components/ui/chart"
-import { ChartContainer } from "../components/ui/chart";
+    from "../../components/ui/chart"
+import { ChartContainer } from "../../components/ui/chart";
 import { Bar, BarChart, CartesianGrid, XAxis, YAxis } from "recharts";
 
 const chartConfig = {
